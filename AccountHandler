@@ -1,0 +1,11 @@
+public class AccountHandler {
+    public static Account insertNewAccount(String str) {
+        try {
+            Account acct = new Account(Name=str);
+            insert acct;
+            return acct;
+        }catch (exception e){
+            return null;
+        }
+    }
+}
